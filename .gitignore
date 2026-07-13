@@ -1,0 +1,6 @@
+#密钥配置文件，git永久忽略，不会上传github
+.env
+#python缓存文件
+_pycache_/
+*.pyc
+*.log
