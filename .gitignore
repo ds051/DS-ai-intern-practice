@@ -1,7 +1,27 @@
-=======
-#密钥配置文件，git永久忽略，不会上传github
+# 密钥配置文件，绝对禁止上传
 .env
-#python缓存文件
-_pycache_/
+*.env
+
+# 本地测试文件
+测试*.txt
+*.测试.txt
+
+# Python缓存、编译文件
+__pycache__/
 *.pyc
-*.log 
+*.pyo
+*.pyd
+*.log
+
+# 运行输出临时文件
+temp*.csv
+tmp*.txt
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# VSCode配置
+.vscode/
+*.swp
+*.swo
