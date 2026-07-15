@@ -1,0 +1,19 @@
+# API密钥配置文件
+.env
+
+# Python缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志、临时文件
+*.log
+*.txt.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境（可选，你没用到可以删掉）
+venv/
