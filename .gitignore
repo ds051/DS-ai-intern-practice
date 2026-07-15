@@ -1,19 +1,7 @@
-# API密钥配置文件
+=======
+#密钥配置文件，git永久忽略，不会上传github
 .env
-
-# Python缓存文件
-__pycache__/
+#python缓存文件
+_pycache_/
 *.pyc
-*.pyo
-*.pyd
-
-# 日志、临时文件
-*.log
-*.txt.tmp
-
-# 系统文件
-.DS_Store
-Thumbs.db
-
-# 虚拟环境（可选，你没用到可以删掉）
-venv/
+*.log 
