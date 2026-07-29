@@ -1,1 +1,0 @@
-# DS-ai-intern-practice
